@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "631ed0da42de4b7a75398c93"
+  },
+  "name": "Israel",
+  "capital": "Jerusalem",
+  "pop": 9500000,
+  "img": "israel.jpg"
+},
+{
+  "_id": {
+    "$oid": "631ed0da42de4b7a75398c94"
+  },
+  "name": "USA",
+  "capital": "Washington D.C",
+  "pop": 350000000,
+  "img": "USA.jpg"
+},
+{
+  "_id": {
+    "$oid": "6501b1996d83371d65e5a4be"
+  },
+  "name": "spain",
+  "capital": "barcelona",
+  "pop": 1000000,
+  "img": "http",
+  "date": {
+    "$date": "2023-09-13T12:51:46.416Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "650180563f089baa2c01fffe"
+  },
+  "name": "maor_gabay",
+  "email": "maor_gabay@gmail.com",
+  "password": "$2b$10$i4otynKFmqNIlPHpjcVF5uCCopJD5AxcCNBiPMwHE9HKqXXXIzgxO",
+  "date_created": {
+    "$date": "2023-09-13T09:26:27.498Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65019a803f089baa2c020004"
+  },
+  "name": "daniel",
+  "email": "dani@gmail.com",
+  "password": "$2b$10$yvMEwuOzHG6YTTHMlY3Ss.L5zQW4ZMiJQ4nW0YN3Tbv.WgwwrnAw6",
+  "date_created": {
+    "$date": "2023-09-13T09:26:27.498Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6501b2a06d83371d65e5a4c4"
+  },
+  "name": "sjuli",
+  "email": "shuli@gmail.com",
+  "password": "$2b$10$3z0UyYUeJ1co.AIeSIoYNe24v4Q7bwDeWRwNbv/rctFwi1s9GJERm",
+  "date_created": {
+    "$date": "2023-09-13T12:51:46.404Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656253268444edea6ec6d055"
+  },
+  "name": "Maor",
+  "email": "maor@gmail.com",
+  "password": "$2b$10$igs3S8ZzVox039nZ7gxT4uDOortTOcS0gr5nQLl.mspnD.zw44tw6",
+  "date_created": {
+    "$date": "2023-11-25T20:01:07.742Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6562535aedc7682bd62cdb50"
+  },
+  "name": "Daniel",
+  "email": "daniel@gmail.com",
+  "password": "123456",
+  "date_created": {
+    "$date": "2023-11-25T20:04:25.874Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65625379634a090571363005"
+  },
+  "name": "Guy",
+  "email": "guy@gmail.com",
+  "password": "123456",
+  "date_created": {
+    "$date": "2023-11-25T20:05:02.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656253b428dbc0dc846fe7ac"
+  },
+  "name": "Shaked",
+  "email": "shaked@gmail.com",
+  "password": "$2b$10$lhckUF.CdJw3t26/uMCePeUr50AFe0sc1/D7RDwCROS8xBzhC1LXC",
+  "date_created": {
+    "$date": "2023-11-25T20:05:57.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656257f8679df987db6a75f7"
+  },
+  "name": "Shaked1",
+  "email": "shaked1@gmail.com",
+  "password": "$2b$10$SfQOLtC3l3HgyOl2eHTTkugGxWPICbLfCpb9.jQbUo6ehXPToNi7K",
+  "date_created": {
+    "$date": "2023-11-25T20:24:15.776Z"
+  },
+  "__v": 0
+}]

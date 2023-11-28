@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "631ed0da42de4b7a75398c93"
+  },
+  "name": "Israel",
+  "capital": "Jerusalem",
+  "pop": 9500000,
+  "img": "israel.jpg"
+},{
+  "_id": {
+    "$oid": "631ed0da42de4b7a75398c94"
+  },
+  "name": "USA",
+  "capital": "Washington D.C",
+  "pop": 350000000,
+  "img": "USA.jpg"
+},{
+  "_id": {
+    "$oid": "631ed0da42de4b7a75398c95"
+  },
+  "name": "England",
+  "capital": "London",
+  "pop": 56500000,
+  "img": "england.jpg"
+}]
