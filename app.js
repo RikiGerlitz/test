@@ -3,7 +3,7 @@ const path = require("path");
 const http = require("http");
 const cors = require("cors");
 // המודול של אי אן וי דואג שהאפליקציה תכיר את הקובץ אינוורמינט שמכיל 
-// משתנים סודיים והגדרות של השרת
+//  משתנים סודיים והגדרות של השרת
 
 const {routesInit} = require("./routes/config_routes")
 require("./db/mongoconnect");
