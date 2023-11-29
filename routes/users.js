@@ -71,6 +71,7 @@ router.post("/login", async (req, res) => {
     if (!authPassword) {
       return res.status(401).json({ msg: "Password or email is worng ,code:2" });
     }
+    console.log(user.role);
     // מייצרים טוקן שמכיל את האיידי של המשתמש
     let newToken = createToken(user._id,user.role);
     res.json({ token: newToken });
