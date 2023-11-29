@@ -19,7 +19,7 @@ export const decalreFormEvent = (_doApi) => {
 
 // סקשת פוסט ליצירת רשומה חדשה
 const addNewCountry = async (_bodyData, _doApi) => {
-  let myUrl = "http://https://test-riki.onrender.com//countries"
+  let myUrl = "https://test-riki.onrender.com/countries"
   try {
     let resp = await axios({
       url: myUrl,
