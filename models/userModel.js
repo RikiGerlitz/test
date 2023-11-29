@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 const Joi = require("joi");
 const jwt = require("jsonwebtoken");
-const { config } = require("dotenv");
+const { config } = require("../config/secret");
 const userSchema = new mongoose.Schema({
   name:String,
   email:String,
