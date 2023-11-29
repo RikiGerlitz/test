@@ -4,7 +4,8 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const {UserModel,userValid,loginValid,createToken} = require("../models/userModel")
 const router = express.Router();
-const {auth} = require("../middlewares/auth")
+const {auth,authAdmin} = require("../middlewares/auth")
+//  const { config } = require("../config/secret")
 
 router.get("/" , async(req,res)=> {
   let perPage = Math.min(req.query.perPage,20) || 99;
@@ -60,9 +61,11 @@ router.post("/login", async (req, res) => {
     // .details -> מחזיר בפירוט מה הבעיה צד לקוח
     return res.status(400).json(validBody.error.details);
   }
+
   try {
     // קודם כל לבדוק אם המייל שנשלח קיים  במסד
     let user = await UserModel.findOne({ email: req.body.email })
+    console.log(user.role);
     if (!user) {
       return res.status(401).json({ msg: "Password or email is worng ,code:1" })
     }
@@ -72,13 +75,24 @@ router.post("/login", async (req, res) => {
       return res.status(401).json({ msg: "Password or email is worng ,code:2" });
     }
     // מייצרים טוקן שמכיל את האיידי של המשתמש
-    let newToken = createToken(user._id);
-    res.json({ token: newToken });
+    let token = createToken(user._id,user.role);
+    res.json({token});
   }
   catch (err) {
     console.log(err)
     res.status(500).json({ msg: "err", err })
   }
+})
+
+router.get("/usersList", authAdmin , async(req,res) => {
+  try{
+    let data = await UserModel.find({},{password:0});
+    res.json(data)
+  }
+  catch(err){
+    console.log(err)
+    res.status(500).json({msg:"err",err})
+  }  
 })
 
 router.get("/myInfo", async (req, res) => {

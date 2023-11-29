@@ -24,5 +24,5 @@ const server = http.createServer(app);
 console.log("env",process.env.TEST, process.env.USER_DB)
 
 // console.log(process.env.TEST);
-let port = process.env.PORT || 3000
+let port = process.env.PORT || 3001
 server.listen(port);
