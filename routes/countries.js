@@ -26,9 +26,9 @@ router.get("/" , async(req,res)=> {
     console.log(err)
     res.status(500).json({msg:"err",err})
   }
-// http://localhost:3000/countries/?perPage=4
-// http://localhost:3000/countries/?page=2&perPage=3
-// http://localhost:3000/countries/?page=2&perPage=3&sort=name
+// http://https://test-riki.onrender.com//countries/?perPage=4
+// http://https://test-riki.onrender.com//countries/?page=2&perPage=3
+// http://https://test-riki.onrender.com//countries/?page=2&perPage=3&sort=name
                       
 })
 
